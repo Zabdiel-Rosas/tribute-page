@@ -1,0 +1,183 @@
+html {
+    /*Setting the base font size to 10px for easier rem calculations*/
+    font-size: 10px;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background: #fff;    
+    margin: 0;
+}
+
+/* Nav */
+
+.cstm-nav {
+    background: #000;
+    height: 60px;
+    margin: 0;
+}
+
+.cstm-nav ul {
+    display: flex;
+    margin: 0;    
+}
+
+.cstm-nav ul li {
+    margin-left: 60px;        
+}
+
+.cstm-nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cstm-nav ul li a:hover {
+    border-bottom: solid 1px #fff;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+/* head container */
+
+.h-container {        
+    position: relative;    
+    height: 550px;    
+    background-image: url('https://www.whitehouse.gov/wp-content/uploads/2018/01/33870486865_c4be14daa8_o-1600x720.jpg');
+    background-size: cover;    
+}
+
+.h-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+.h-content {
+    text-align: left;
+    position: absolute;
+    color: #000;
+    left: 40px;
+    bottom: 180px;
+}
+
+.cstm-btn {
+    background: #000;
+    padding: 10px 25px;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.cstm-btn:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.h-content h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.h-content p {
+    font-weight: 500;
+    max-width: 275px;
+    background: #fff;
+    color: #333;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#main {    
+    margin: 0;        
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {        
+    padding: 10px;
+    margin: 0;
+}
+
+#image {
+    max-width: 75%;
+    border-radius: 5px;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
+#tribute-info h3 {
+    margin: 50px 0; 
+    text-align: center;    
+}
+
+ul {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+blockquote p {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #477ca7;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    line-height: 1;
+}
+
+footer span {
+    font-style: italic;
+}
+
+@media(max-width:900px) {
+    .h-content p {
+        max-width: 200px;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        border-radius: 2px;
+    }
+}
